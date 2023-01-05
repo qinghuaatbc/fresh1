@@ -16,7 +16,7 @@ export const handler: Handlers<any> = {
     const message = url.searchParams.get("message") || "";
     tw.send(callee,message)
    // videoUrls.push("http://192.168.1.119:5080/LiveApp/streams/397584680641031668620119.mp4")
-     const videoUrl = "http://192.168.1.119:5080/LiveApp/streams/397584680641031668620119.mp4"
+     const videoUrl = "http://24.80.168.30:5081/LiveApp/streams/790959164419468023195632.mp4"
     return ctx.render({ callee, message,videoUrl});
   },
 };
@@ -35,10 +35,10 @@ export default function Page({ data }: PageProps<Data>) {
             <option value="audi">Audi</option>
         </select>
        
-        <textarea  name="message" value={message} rows="6" cols="80"></textarea>
+        <textarea  name="message" value={message} ></textarea>
         <button type="submit">Send Meassage</button>
       </form>
-      {/* <video width="80%" height="80%" src={ videoUrl} controls/> */}
+      <video width="80%" height="80%" src={ videoUrl} controls/>
       <ul>
       </ul>
     </div>
