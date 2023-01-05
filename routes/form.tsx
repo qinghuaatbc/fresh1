@@ -38,7 +38,7 @@ export default function Page({ data }: PageProps<Data>) {
         <textarea  name="message" value={message} ></textarea>
         <button type="submit">Send Meassage</button>
       </form>
-     {/* <video width="80%" height="80%" src={ videoUrl} controls/> */}
+     <video width="80%" height="80%" src={ videoUrl} controls/>
       <ul>
       </ul>
     </div>
