@@ -16,7 +16,7 @@ import { Twilio } from "https://deno.land/x/twilio/Twilio.ts";
 
 class Tw { 
    accountSid = 'AC0d271a4d0c2864e6d9c29ee08d84f41d'; // Your Account SID from www.twilio.com/console
-  authToken = '33545e0f43fed2fbf16df50df20ead96'; // Your Auth Token from www.twilio.com/console
+  authToken = '6ad158ef39ab27a2876d2441ddb6b0d5'; // Your Auth Token from www.twilio.com/console
    serviceId ='MGad4f817e7c81f12968687eb3266335d2'
   
   tw: any
